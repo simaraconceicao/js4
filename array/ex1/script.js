@@ -17,6 +17,7 @@ let btn = document.getElementById("btn")
 console.log(btn)
 
 btn.addEventListener("click", function(){
+    
     let arrayProcura = frutas.filter((fruta)=> fruta === input.value)
     console.log(arrayProcura)
     
